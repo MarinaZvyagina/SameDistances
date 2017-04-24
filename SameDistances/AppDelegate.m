@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    UIView * rootView = self.window.rootViewController.view;
+    
+    ViewController *vc = [ViewController new];
+    
+    rootView = vc.view;
+    
+
     return YES;
 }
 
