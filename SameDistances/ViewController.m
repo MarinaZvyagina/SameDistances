@@ -22,8 +22,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSUInteger widthOfElement = self.view.bounds.size.width/(NUMBER*4);   //1;//self.view.bounds.size.width/();//20;
-    NSInteger distanceBetweenElements = self.view.bounds.size.width/(NUMBER*3);// 20;
+    NSUInteger widthOfElement = self.view.bounds.size.width/(NUMBER*4);
+    NSInteger distanceBetweenElements = self.view.bounds.size.width/(NUMBER*3);
     NSUInteger distanceFromTop = 50;
     MASViewAttribute * almostLeftAttribute = self.view.mas_left;
     MASViewAttribute * almostRightAttribute = self.view.mas_right;
